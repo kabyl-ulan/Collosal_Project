@@ -97,14 +97,16 @@ body {
 
   .block {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
 
     &__item {
       background: $bgBlockColor;
-      padding: 3% 4%;
-      margin: 0 1.2%;
+      padding: 2%;
+      margin: 3% auto;
       border-radius: 7px;
       transition: .2s linear;
+      width: 25%;
 
       &--img{
         width: 20%;
@@ -347,9 +349,12 @@ body {
 
     &__app {
       display: flex;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
 
       &--mobile {
+        margin: 8% auto;
         width: 48%;
 
         &__page {
@@ -435,16 +440,14 @@ body {
 
     &__item2 {
       display: flex;
-      justify-content: space-between;
-      margin: auto;
-      width: 90%;
+      flex-wrap: wrap;
       padding-bottom: 5%;
 
       &--elem {
         padding: 3% 1%;
-        margin: 0 1.5%;
+        margin: 3% auto;
         border-radius: 10px;
-        width: 80%;
+        width: 25%;
 
         &__menu {
           display: flex;

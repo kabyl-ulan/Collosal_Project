@@ -11,21 +11,31 @@ $(".testimonial__slider").slick({
             }
         },
         {
-            breakpoint: 992,
+            breakpoint: 1000,
             settings: {
                 slidesToShow: 2,
+                centerPadding: '50px',
             }
         },
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 1.6,
+                slidesToShow: 2,
+                centerPadding: '40px',
             }
         },
         {
-            breakpoint: 576,
+            breakpoint: 600,
             settings: {
                 slidesToShow: 1,
+                centerPadding: '30px',
+            }
+        },
+        {
+            breakpoint: 450,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '0',
             }
         }
     ]

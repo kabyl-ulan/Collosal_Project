@@ -72,6 +72,14 @@
     }
   }
 
+  #block {
+    .block {
+      &__item {
+        width: 33% !important;
+      }
+    }
+  }
+
   #send {
     .send {
       &__items {
@@ -120,6 +128,8 @@
 
       &__item2 {
         &--elem {
+          width: 33% !important;
+
           &__menu {
             &--menu-block {
               &__title {
@@ -146,6 +156,20 @@
 
         &--subtitle {
           font-size: 27px;
+        }
+      }
+    }
+  }
+
+  #testimonial {
+    .testimonial {
+      &__theme {
+        &--title {
+          font-size: 12px;
+        }
+
+        &--subtitle {
+          font-size: 26px;
         }
       }
     }
@@ -220,16 +244,6 @@
     }
   }
 
-  #send {
-    .send {
-      &__items {
-        &__subtitle {
-          font-size: 18px;
-        }
-      }
-    }
-  }
-
   #block-project {
     .block-project {
       &__elem {
@@ -244,6 +258,8 @@
 
       &__app {
         &--mobile {
+          width: 50%;
+
           &__disk {
             &__title {
               font-size: 18px;
@@ -299,6 +315,16 @@
     }
   }
 
+  #send {
+    .send {
+      &__items {
+        &__subtitle {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
   #footer {
     .footer {
       &__logos {
@@ -327,6 +353,14 @@
 }
 
 @media (max-width: 576px) {
+  #header{
+    .header{
+      &__logo{
+        font-size: 20px !important;
+      }
+    }
+  }
+
   #hero {
     .hero {
       &__title {
@@ -357,48 +391,17 @@
   #block {
     .block {
       &__item {
-        &--title {
-          font-size: 13px;
-        }
-
-        &--desc {
-          font-size: 13px;
-          line-height: 18px !important;
-        }
+        width: 80% !important;
       }
     }
-  }
-
-  #footer {
-    .footer {
-      &__logos {
-        &--lg {
-          font-size: 16px !important;
-        }
-
-        &--desc {
-          font-size: 12px;
-          line-height: 16px;
-        }
-      }
-
-      &__items {
-        &--title {
-          font-size: 12px;
-          line-height: 16px;
-        }
-
-        &--desc {
-          font-size: 12px;
-          line-height: 16px;
-        }
-      }
-    }
-
   }
 
   #how-we-work {
     .how-we-work {
+      &__img {
+        width: 40% !important;
+      }
+
       &__elem {
         &--title {
           font-size: 10px;
@@ -417,15 +420,19 @@
 
   #our-team {
     .our-team {
-      padding: 2% 0 !important;
 
       &__images {
+        width: 45% !important;
+
         &--img2 {
-          top: 20% !important;
+          top: 30% !important;
         }
       }
 
       &__item1 {
+        width: 45% !important;
+        padding-top: 20% !important;
+
         &--title {
           font-size: 10px;
         }
@@ -461,6 +468,8 @@
 
       &__app {
         &--mobile {
+          width: 100% !important;
+
           &__page {
             &--elem3, &--elem4 {
               height: 140px !important;
@@ -476,9 +485,282 @@
       }
     }
   }
+
+  #block-started {
+    .block-started {
+      &__item1 {
+        &--title {
+          font-size: 10px;
+        }
+
+        &--subtitle {
+          font-size: 20px;
+        }
+      }
+
+      &__item2 {
+        &--elem {
+          width: 50% !important;
+
+          &__description {
+            font-size: 13px;
+          }
+
+          &__menu {
+            &--menu-block {
+              &__title {
+                font-size: 18px;
+                text-align: left;
+              }
+
+              &--desc {
+                font-size: 12px;
+              }
+            }
+
+            &--subtitle {
+              font-size: 10px !important;
+            }
+          }
+
+          &--button {
+            &__btn {
+              padding: 8px 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #testimonial {
+    padding-top: 10%;
+
+    .testimonial {
+      &__slider {
+        .slick-current {
+          transform: translateY(0) scale(1.03) !important;
+
+          .testimonial__slider--client__comment {
+            color: #ffffff;
+          }
+        }
+      }
+
+      &__theme {
+        &--title {
+          font-size: 10px;
+        }
+
+        &--subtitle {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  #send {
+    .send {
+      &__items {
+        &__button {
+          &--send{
+            padding: 3px 20px !important;
+            margin-left: 2%;
+            font-size: 12px;
+          }
+          &--ask{
+            padding: 3px 20px !important;
+            margin-left: 2%;
+            font-size: 12px;
+          }
+        }
+
+        &__subtitle {
+          font-size: 14px;
+          padding-left: 2%;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer {
+      &__logos {
+        &--lg {
+          font-size: 16px !important;
+        }
+
+        &--desc {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+
+      &__items {
+        &--title {
+          font-size: 12px;
+          line-height: 16px;
+        }
+
+        &--desc {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+
+  }
 }
 
 @media (max-width: 414px) {
+
+  #hero {
+    .hero {
+      &__title {
+        font-size: 9px;
+      }
+
+      &__subtitle {
+        font-size: 18px;
+      }
+
+      &__description {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      &__buttons {
+        &--purple {
+          padding: 7px 20px !important;
+          font-size: 10px !important;
+        }
+
+        &--gray {
+          padding: 7px 20px !important;
+          font-size: 10px !important;
+        }
+      }
+    }
+  }
+
+  #how-we-work {
+    .how-we-work {
+
+      &__img {
+        display: none;
+      }
+
+      &__elem {
+        &--title {
+          font-size: 9px;
+          text-align: center !important;
+        }
+
+        &--subtitle {
+          font-size: 18px !important;
+          text-align: center !important;
+        }
+
+        &--desc {
+          font-size: 12px;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+
+  #our-team {
+    .our-team {
+      display: flex;
+      flex-direction: column;
+      &__images {
+        display: none;
+      }
+
+      &__item1 {
+        width: 90% !important;
+
+        &--title {
+          font-size: 10px;
+          text-align: center !important;
+        }
+
+        &--subtitle {
+          font-size: 18px !important;
+          line-height: 20px !important;
+        }
+
+        &--description {
+          font-size: 12px !important;
+          line-height: 12px;
+        }
+
+        &--btnSee {
+          padding: 4% 10% !important;
+        }
+      }
+    }
+  }
+
+  #testimonial {
+    padding-top: 10%;
+
+    .testimonial {
+      &__slider {
+        .slick-dots{
+          li{
+            width: 10px !important;
+            height: 10px !important;
+          }
+        }
+        .slick-current {
+          transform: translateY(0) scale(1.03) !important;
+
+          .testimonial__slider--client__comment {
+            color: #ffffff;
+          }
+        }
+      }
+
+      &__theme {
+        &--title {
+          font-size: 9px;
+        }
+
+        &--subtitle {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  #send {
+    .send {
+      &__items {
+        &__subtitle{
+          font-size: 12px !important;
+        }
+        &__button {
+          &--send{
+            padding: 3px 20px !important;
+            margin-left: 3%;
+            font-size: 8px !important;
+          }
+          &--ask{
+            padding: 3px 20px !important;
+            margin-left: 3%;
+            font-size: 8px !important;
+          }
+        }
+
+        &__subtitle {
+          font-size: 14px;
+          padding-left: 2%;
+        }
+      }
+    }
+  }
+
   #footer {
     .footer {
       &__logos {
@@ -577,5 +859,31 @@
       }
     }
 
+  }
+  #send {
+    .send {
+      &__items {
+        &__subtitle{
+          font-size: 9px !important;
+        }
+        &__button {
+          &--send{
+            padding: 3px 16px !important;
+            margin-left: 3%;
+            font-size: 6px !important;
+          }
+          &--ask{
+            padding: 3px 16px !important;
+            margin-left: 3%;
+            font-size: 6px !important;
+          }
+        }
+
+        &__subtitle {
+          font-size: 14px;
+          padding-left: 2%;
+        }
+      }
+    }
   }
 }
