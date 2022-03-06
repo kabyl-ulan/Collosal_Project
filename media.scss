@@ -1,0 +1,581 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 88%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .hero__subtitle {
+    font-size: 30px;
+  }
+
+  #block-project {
+    .block-project {
+      &__elem {
+        &--subtitle {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  #block-started {
+    .block-started {
+      &__item1 {
+        &--subtitle {
+          font-size: 30px;
+        }
+      }
+
+      &__item2 {
+        &--elem {
+          &__menu {
+            &--menu-block {
+              &__title {
+                font-size: 30px;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #testimonial {
+    .testimonial {
+      &__theme {
+        &--subtitle {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  #send {
+    .send {
+      &__items {
+        &__subtitle {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  #hero {
+    .hero {
+      &__subtitle {
+        font-size: 30px;
+      }
+    }
+  }
+
+  #send {
+    .send {
+      &__items {
+        &__subtitle {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  #block-project {
+    .block-project {
+      &__elem {
+        &--title {
+          font-size: 13px;
+        }
+
+        &--subtitle {
+          font-size: 26px;
+        }
+      }
+
+      &__app {
+        &--mobile {
+          &__disk {
+            &__title {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block-started {
+    .block-started {
+      &__item1 {
+        &--title {
+          font-size: 13px;
+        }
+
+        &--subtitle {
+          font-size: 26px;
+        }
+      }
+
+      &__item2 {
+        &--elem {
+          &__menu {
+            &--menu-block {
+              &__title {
+                font-size: 26px;
+                text-align: left;
+              }
+            }
+
+            &--subtitle {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #our-team {
+    .our-team {
+      &__item1 {
+        &--title {
+          font-size: 13px;
+        }
+
+        &--subtitle {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      &__nav {
+        display: none;
+      }
+
+      &__btn {
+        display: none;
+      }
+    }
+  }
+
+  #hero {
+    .hero {
+      &__title {
+        font-size: 12px;
+      }
+
+      &__subtitle {
+        font-size: 24px;
+      }
+
+      &__description {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      &__buttons {
+        &--purple {
+          padding: 16px 40px !important;
+        }
+
+        &--gray {
+          padding: 16px 40px !important;
+        }
+      }
+    }
+  }
+
+  #how-we-work {
+    .how-we-work {
+      &__elem {
+        &--title {
+          font-size: 12px;
+        }
+
+        &--subtitle {
+          font-size: 24px !important;
+        }
+      }
+    }
+  }
+
+  #our-team {
+    .our-team {
+      padding: 0 0 !important;
+
+      &__item1 {
+        &--subtitle {
+          font-size: 24px !important;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  #send {
+    .send {
+      &__items {
+        &__subtitle {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  #block-project {
+    .block-project {
+      &__elem {
+        &--title {
+          font-size: 13px;
+        }
+
+        &--subtitle {
+          font-size: 24px;
+        }
+      }
+
+      &__app {
+        &--mobile {
+          &__disk {
+            &__title {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block-started {
+    .block-started {
+      &__item1 {
+        &--title {
+          font-size: 12px;
+        }
+
+        &--subtitle {
+          font-size: 24px;
+        }
+      }
+
+      &__item2 {
+        &--elem {
+          &__menu {
+            &--menu-block {
+              &__title {
+                font-size: 24px;
+                text-align: left;
+              }
+            }
+
+            &--subtitle {
+              font-size: 12px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #testimonial {
+    .testimonial {
+      &__theme {
+        &--title {
+          font-size: 12px;
+        }
+
+        &--subtitle {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer {
+      &__logos {
+        &--lg {
+          font-size: 19px !important;
+        }
+
+        &--desc {
+          font-size: 14px;
+        }
+      }
+
+      &__items {
+        &--title {
+          font-size: 14px;
+        }
+
+        &--desc {
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 576px) {
+  #hero {
+    .hero {
+      &__title {
+        font-size: 10px;
+      }
+
+      &__subtitle {
+        font-size: 20px;
+      }
+
+      &__description {
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      &__buttons {
+        &--purple {
+          padding: 10px 25px !important;
+        }
+
+        &--gray {
+          padding: 10px 25px !important;
+        }
+      }
+    }
+  }
+
+  #block {
+    .block {
+      &__item {
+        &--title {
+          font-size: 13px;
+        }
+
+        &--desc {
+          font-size: 13px;
+          line-height: 18px !important;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .footer {
+      &__logos {
+        &--lg {
+          font-size: 16px !important;
+        }
+
+        &--desc {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+
+      &__items {
+        &--title {
+          font-size: 12px;
+          line-height: 16px;
+        }
+
+        &--desc {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+
+  }
+
+  #how-we-work {
+    .how-we-work {
+      &__elem {
+        &--title {
+          font-size: 10px;
+        }
+
+        &--subtitle {
+          font-size: 20px !important;
+        }
+
+        &--desc {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #our-team {
+    .our-team {
+      padding: 2% 0 !important;
+
+      &__images {
+        &--img2 {
+          top: 20% !important;
+        }
+      }
+
+      &__item1 {
+        &--title {
+          font-size: 10px;
+        }
+
+        &--subtitle {
+          font-size: 20px !important;
+          line-height: 20px !important;
+        }
+
+        &--description {
+          font-size: 12px;
+          line-height: 12px;
+        }
+
+        &--btnSee {
+          padding: 4% 10% !important;
+        }
+      }
+    }
+  }
+
+  #block-project {
+    .block-project {
+      &__elem {
+        &--title {
+          font-size: 10px;
+        }
+
+        &--subtitle {
+          font-size: 20px;
+        }
+      }
+
+      &__app {
+        &--mobile {
+          &__page {
+            &--elem3, &--elem4 {
+              height: 140px !important;
+            }
+          }
+
+          &__disk {
+            &__title {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  #footer {
+    .footer {
+      &__logos {
+        margin-left: 2%;
+
+        &--lg {
+          font-size: 13px !important;
+        }
+
+        &--desc {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
+
+      &__items {
+        margin-left: 3%;
+
+        &--title {
+          font-size: 10px;
+          line-height: 12px;
+        }
+
+        &--desc {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 390px) {
+  #footer {
+    .footer {
+      &__logos {
+        margin-left: 2%;
+
+        &--lg {
+          font-size: 10px !important;
+        }
+
+        &--desc {
+          font-size: 9px;
+          line-height: 10px;
+        }
+      }
+
+      &__items {
+        margin-left: 3%;
+
+        &--title {
+          font-size: 9px;
+          line-height: 10px;
+        }
+
+        &--desc {
+          font-size: 9px;
+          line-height: 10px;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 320px) {
+  #footer {
+    .footer {
+      &__logos {
+        margin-left: 2%;
+
+        &--lg {
+          font-size: 8px !important;
+        }
+
+        &--desc {
+          font-size: 8px;
+          line-height: 9px;
+        }
+      }
+
+      &__items {
+        margin-left: 4%;
+
+        &--title {
+          font-size: 8px;
+          line-height: 9px;
+        }
+
+        &--desc {
+          font-size: 7px;
+          line-height: 9px;
+        }
+      }
+    }
+
+  }
+}
